@@ -4,3 +4,7 @@
 Comentário de bloco
 
 */
+
+void main() {
+    print("Olá Mundo!");
+}
