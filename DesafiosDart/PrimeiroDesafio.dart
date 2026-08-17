@@ -1,4 +1,4 @@
-// Exercício em Linguagem Dart
+// Primeiro Exercício em Linguagem Dart
 
 void main() {
 
@@ -9,6 +9,7 @@ void main() {
   double nota = 9.5;
   bool matriculado = true;
 
+  // Exibindo os valores
   print("\nNome do aluno: $nome");
   print("Idade do aluno: $idade");
   print("Curso do aluno: $curso");
