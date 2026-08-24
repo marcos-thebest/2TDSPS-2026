@@ -1,4 +1,4 @@
-// Aprendendo sobre funções em Dart
+// Aprendendo sobre funções em Linguagem Dart
 
 // Iniciando variável
 int soma = 0;
