@@ -31,7 +31,7 @@ void main() {
   final desconto = calcularDesconto(subtotal: subtotal, desconto: 0.10);
   final valorTotal = total(subtotal: subtotal, desconto: desconto);
 
-  print('Subtotal: R\$ ${subtotal.toStringAsFixed(2)}'); // R$ 199.95
-  print('Desconto: R\$ ${desconto.toStringAsFixed(2)}'); // R$ 19.99...
+  print('Subtotal: R\$ ${subtotal.toStringAsFixed(2)}');
+  print('Desconto: R\$ ${desconto.toStringAsFixed(2)}'); 
   print('Total: R\$ ${valorTotal.toStringAsFixed(2)}');
 }
