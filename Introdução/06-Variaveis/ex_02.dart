@@ -12,4 +12,7 @@ void main() {
   const cargaHoraria = 120;
 
   // Exibe os dados usando interpolação de String
+  print("Aluno: $nomeAluno");
+  print("Curso: $nomeCurso");
+  print("Carga Horária: $cargaHoraria");
 }
