@@ -7,6 +7,9 @@ void main() {
   double altura = 1.76;
   bool estudante = true;
   
+  // Pulando uma linha
+  print("");
+  
   print("Nome: $nome");
   print("Idade: $idade");
   print("Altura: $altura");

@@ -1,4 +1,4 @@
-// Demostração das palavras chave final e const em Dart
+// Demostração das palavras chave final e const em Dart...
 
 void main() {
 
@@ -11,6 +11,9 @@ void main() {
   // Um outro exemplo de constante numérica não muda durante a execução
   const cargaHoraria = 120;
 
+  // Pulando uma linha
+  print("");
+  
   // Exibe os dados usando interpolação de String
   print("Aluno: $nomeAluno");
   print("Curso: $nomeCurso");

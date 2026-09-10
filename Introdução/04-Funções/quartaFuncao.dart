@@ -1,4 +1,4 @@
-// Funcao com retorno int: recebe dois números inteiros, soma e devolve o resultado 
+// Função com retorno int: recebe dois números inteiros, soma e devolve o resultado 
 
 int somar(int primeiroNumero, int segundoNumero) {
   return primeiroNumero + segundoNumero;
@@ -6,5 +6,9 @@ int somar(int primeiroNumero, int segundoNumero) {
 
 void main() {
   int resultado = somar(24, 24);
+
+  // Pulando uma linha
+  print("");
+  
   print("Resultado: $resultado");
 }

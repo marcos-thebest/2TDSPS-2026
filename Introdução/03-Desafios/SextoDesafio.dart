@@ -1,7 +1,7 @@
-// Saida esperada:
+// Saída esperada:
 
 // Média e Status de nota dos alunos.
-// Utilize os operadores = soma e / divisão
+// Utilize os operadores = soma(+) e / divisão
 
 double calcularMedia(
   final double primeiraNota,
@@ -12,12 +12,16 @@ double calcularMedia(
 }
 
 void main() {
-  // Armazenando a média dentro de uma variável
+
+  // Armazenando a média dentro de uma variável...
   final double media = calcularMedia(7.8, 8.5, 9.0);
 
   // Avalia a condição e retorna aprovado ou reprovado
   final String status = media >= 7 ? "Aprovado" : "Reprovado";
-
+  
+  // Pulando uma linha
+  print("");
+  
   print("Média: ${media.toStringAsFixed(1)}");
   print("Status: $status");
 }

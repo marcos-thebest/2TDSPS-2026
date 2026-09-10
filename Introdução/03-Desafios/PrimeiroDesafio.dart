@@ -9,8 +9,11 @@ void main() {
   double nota = 9.5;
   bool matriculado = true;
 
+  // Pulando uma linha
+  print("");
+
   // Exibindo os valores
-  print("\nNome do aluno: $nome");
+  print("Nome do aluno: $nome");
   print("Idade do aluno: $idade");
   print("Curso do aluno: $curso");
   print("Nota do aluno: $nota");

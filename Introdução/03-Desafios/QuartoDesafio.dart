@@ -1,7 +1,8 @@
 // Desafio: criar um cartão de apresentação usando apenas saídas no console.
 
-// O objetivo é praticar sequências de print para montar uma saida formatada.
+// O objetivo é praticar sequências de print para montar uma saída formatada.
 void main() {
+  
   // Linha decorativa que delimita o início do cartão
   print("======================================");
   print("Cartão De Apresentação - DART");

@@ -2,8 +2,11 @@
 
 void main() {
 
+  // Pulando uma linha
+  print("");
+
   // Imprimindo informações pessoais no console
-  print("\nNome: Marcos Vinicius de Jesus Almeida");
+  print("Nome: Marcos Vinicius de Jesus Almeida");
 
   // Imprimindo informações de cidade de origem
   print("Cidade de origem: São Paulo - SP");

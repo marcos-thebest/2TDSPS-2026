@@ -1,7 +1,7 @@
 // Calculadora de pedidos com três funções encadeadas
 // Cada uma com responsabilidade única: calcular o subtotal, calcular o valor do desconto e calcular o total final
 
-// Funcao para calcular o Subtotal do pedido
+// Função para calcular o Subtotal do pedido...
 double calcularSubtotal({
   required double precoProduto,
   required int qtd
@@ -9,7 +9,7 @@ double calcularSubtotal({
   return precoProduto * qtd;
 }
 
-// Funcao para calcular o valor do desconto
+// Função para calcular o valor do desconto...
 double calcularDesconto({
   required double subtotal,
   required double desconto
@@ -31,6 +31,9 @@ void main() {
   final desconto = calcularDesconto(subtotal: subtotal, desconto: 0.10);
   final valorTotal = total(subtotal: subtotal, desconto: desconto);
 
+  // Pulando uma linha
+  print("");
+  
   print('Subtotal: R\$ ${subtotal.toStringAsFixed(2)}');
   print('Desconto: R\$ ${desconto.toStringAsFixed(2)}'); 
   print('Total: R\$ ${valorTotal.toStringAsFixed(2)}');

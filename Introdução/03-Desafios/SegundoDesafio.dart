@@ -8,8 +8,11 @@ void main() {
   double precoProduto = 14.99;
   bool disponivel = true;
 
+  // Pulando uma linha
+  print("");
+
   // Exibindo os valores
-  print("\nTEM VERIFICADO:\nProduto: $produto");
+  print("TEM VERIFICADO: Produto: $produto");
   print("Quantidade: $qtd");
   print("Preço: $precoProduto");
   print("Disponível: $disponivel");

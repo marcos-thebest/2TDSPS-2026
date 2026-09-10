@@ -11,7 +11,10 @@ void main() {
   final double altura = 1.76;
   final String cidade = "São Paulo";
 
-  // Montando uma paresentação completa do usuário
+  // Pulando uma linha
+  print("");
+
+  // Montando uma apresentação completa do usuário
   print("");
   print("Meu nome é ${nome}, tenho ${idade} anos, ${altura} m de altura e moro em ${cidade}.");
 }

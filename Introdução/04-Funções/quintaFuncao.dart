@@ -9,10 +9,10 @@ double calcularTotal(double precoUnitario, int quantidade) {
 
 void main() {
   
-  // Chamando a funcao com o preco R$ 39,90 e quantidade de 3 -> total = R$ 119,70
+  // Chamando a função com o preco R$ 39,90 e quantidade de 3 -> total = R$ 119,70
   double total = calcularTotal(39.90, 3);
   
-  // Quebra de linha
+  // Pulando uma linha
   print("");
 
   // Mensagem

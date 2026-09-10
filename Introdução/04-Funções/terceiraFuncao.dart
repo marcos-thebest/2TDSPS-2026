@@ -1,4 +1,4 @@
-// Funcao salvar - receber um nome (String e imprimir uma saudacao)
+// Função salvar - receber um nome (String e imprimir uma saudação)
 
 void saudar(String nome) {
   print("");
@@ -6,7 +6,6 @@ void saudar(String nome) {
 }
 
 void main() {
-
   saudar("Marcos Vinicius");
   saudar("Maria Regina");
 }
